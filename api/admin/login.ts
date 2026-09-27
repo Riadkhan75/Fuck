@@ -34,6 +34,6 @@ export default async function handler(req: any, res: any) {
 
   return res.status(401).json({
     success: false,
-    error: 'ভুল অ্যাডমিন পাসওয়ার্ড! সঠিক পাসওয়ার্ড দিন (205090)।',
+    error: 'ভুল অ্যাডমিন পাসওয়ার্ড! আবার চেষ্টা করুন।',
   });
 }

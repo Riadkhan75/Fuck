@@ -174,8 +174,8 @@ export const AdminPanelModal: React.FC<AdminPanelModalProps> = ({
         setAuthError(
           data.error ||
             (lang === 'bn'
-              ? 'ভুল পাসওয়ার্ড! সঠিক পাসওয়ার্ড দিন (205090)'
-              : 'Incorrect password! Please enter 205090.')
+              ? 'ভুল পাসওয়ার্ড! আবার চেষ্টা করুন।'
+              : 'Incorrect password! Please try again.')
         );
       }
     } catch {
@@ -189,8 +189,8 @@ export const AdminPanelModal: React.FC<AdminPanelModalProps> = ({
       } else {
         setAuthError(
           lang === 'bn'
-            ? 'ভুল পাসওয়ার্ড! সঠিক পাসওয়ার্ড দিন (205090)'
-            : 'Incorrect password! Please enter 205090.'
+            ? 'ভুল পাসওয়ার্ড! আবার চেষ্টা করুন।'
+            : 'Incorrect password! Please try again.'
         );
       }
     } finally {
@@ -463,27 +463,6 @@ export const AdminPanelModal: React.FC<AdminPanelModalProps> = ({
                       title={showPassword ? 'Hide password' : 'Show password'}
                     >
                       {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
-                    </button>
-                  </div>
-
-                  {/* Password helper & Auto-login chip */}
-                  <div className="flex items-center justify-between text-[11px] pt-1 px-1">
-                    <span className="text-slate-400">
-                      {lang === 'bn' ? 'অ্যাডমিন পাসওয়ার্ড:' : 'Admin Password:'}{' '}
-                      <code className="text-blue-400 font-mono font-bold bg-blue-500/10 px-1.5 py-0.5 rounded border border-blue-500/20">
-                        205090
-                      </code>
-                    </span>
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setPasswordInput('205090');
-                        handlePasswordLogin(undefined, '205090');
-                      }}
-                      className="text-xs text-sky-400 hover:text-sky-300 font-medium hover:underline flex items-center gap-1 cursor-pointer"
-                    >
-                      <span>{lang === 'bn' ? 'অটো-লগইন' : 'Auto Login'}</span>
-                      <Sparkles className="w-3 h-3 text-sky-400" />
                     </button>
                   </div>
 
