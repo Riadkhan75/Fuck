@@ -93,15 +93,17 @@ export const AdminPanelModal: React.FC<AdminPanelModalProps> = ({
 
   const vercelJsonContent = JSON.stringify(
     {
-      "$schema": "https://openapi.vercel.sh/vercel.json",
       "version": 2,
       "buildCommand": "npm run build",
       "outputDirectory": "dist",
-      "framework": "vite",
       "rewrites": [
         {
           "source": "/api/(.*)",
-          "destination": "/api/index.ts"
+          "destination": "/api"
+        },
+        {
+          "source": "/(.*)",
+          "destination": "/index.html"
         }
       ]
     },
