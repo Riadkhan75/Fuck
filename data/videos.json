@@ -1,0 +1,22 @@
+[
+  {
+    "id": "tg_38",
+    "telegramMessageId": 38,
+    "title": "Telegram Video #38",
+    "caption": "",
+    "videoUrl": "https://api.telegram.org/file/bot8814469265:AAFZeX2bY2vo_ldC3WdFkOYOeONY9ul0_Ro/videos/file_0.mp4",
+    "thumbnailUrl": "https://api.telegram.org/file/bot8814469265:AAFZeX2bY2vo_ldC3WdFkOYOeONY9ul0_Ro/thumbnails/file_1.jpg",
+    "duration": 20,
+    "views": 1,
+    "likes": 0,
+    "liked": false,
+    "category": "Telegram",
+    "tags": [],
+    "channelLink": "https://t.me/+c4pWPb0Ip4JmMGE1",
+    "channelTitle": "Sexi_girl",
+    "date": "2026-09-27T17:09:51.000Z",
+    "fileSize": "4.3 MB",
+    "source": "telegram_sync",
+    "comments": []
+  }
+]

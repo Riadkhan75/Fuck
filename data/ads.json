@@ -1,0 +1,41 @@
+{
+  "adsEnabled": true,
+  "items": [
+    {
+      "id": "ad_1",
+      "title": "টেলিগ্রাম অফিসিয়াল ভিআইপি চ্যানেলে জয়েন করুন",
+      "description": "দৈনিক নতুন নতুন প্রিমিয়াম কনটেন্ট ও এক্সক্লুসিভ ভিডিও সরাসরি পেতে আমাদের চ্যানেলে যুক্ত থাকুন।",
+      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80",
+      "targetUrl": "https://t.me/+c4pWPb0Ip4JmMGE1",
+      "placement": "top_banner",
+      "active": true,
+      "impressions": 120,
+      "clicks": 18,
+      "createdAt": "2026-09-27T17:14:36.852Z"
+    },
+    {
+      "id": "ad_2",
+      "title": "স্পনসরড প্লেয়ার অফার: সুপারফাস্ট ক্লাউড স্ট্রিমিং ও ভিপিএন",
+      "description": "বাফারিং ছাড়া আনলিমিটেড ৪K ভিডিও স্ট্রিমিং ও উচ্চগতির ডাউনলোড উপভোগ করুন।",
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1200&q=80",
+      "targetUrl": "https://t.me/+c4pWPb0Ip4JmMGE1",
+      "placement": "player_banner",
+      "active": true,
+      "impressions": 85,
+      "clicks": 12,
+      "createdAt": "2026-09-27T17:14:36.852Z"
+    },
+    {
+      "id": "ad_3",
+      "title": "আপনার ব্যবসা বা চ্যানেলের বিজ্ঞাপন এখানে দিন",
+      "description": "হাজারো সক্রিয় দর্শকের কাছে আপনার পণ্য বা ব্র্যান্ড পৌঁছান। স্পন্সরশিপের জন্য যোগাযোগ করুন।",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "targetUrl": "https://t.me/+c4pWPb0Ip4JmMGE1",
+      "placement": "feed_banner",
+      "active": true,
+      "impressions": 64,
+      "clicks": 9,
+      "createdAt": "2026-09-27T17:14:36.852Z"
+    }
+  ]
+}
