@@ -96,6 +96,7 @@ export const AdminPanelModal: React.FC<AdminPanelModalProps> = ({
       "version": 2,
       "buildCommand": "npm run build",
       "outputDirectory": "dist",
+      "installCommand": "npm install --legacy-peer-deps",
       "rewrites": [
         {
           "source": "/api/(.*)",
